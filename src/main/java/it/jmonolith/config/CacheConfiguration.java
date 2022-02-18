@@ -48,6 +48,17 @@ public class CacheConfiguration {
             createCache(cm, it.jmonolith.domain.User.class.getName());
             createCache(cm, it.jmonolith.domain.Authority.class.getName());
             createCache(cm, it.jmonolith.domain.User.class.getName() + ".authorities");
+            createCache(cm, it.jmonolith.domain.Evento.class.getName());
+            createCache(cm, it.jmonolith.domain.Evento.class.getName() + ".statis");
+            createCache(cm, it.jmonolith.domain.Assistito.class.getName());
+            createCache(cm, it.jmonolith.domain.Gestore.class.getName());
+            createCache(cm, it.jmonolith.domain.TipoEvento.class.getName());
+            createCache(cm, it.jmonolith.domain.Produttore.class.getName());
+            createCache(cm, it.jmonolith.domain.Stato.class.getName());
+            createCache(cm, it.jmonolith.domain.Stato.class.getName() + ".eventis");
+            createCache(cm, it.jmonolith.domain.Stadio.class.getName());
+            createCache(cm, it.jmonolith.domain.Processo.class.getName());
+            createCache(cm, it.jmonolith.domain.Transizioni.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
