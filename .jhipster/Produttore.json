@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220218184600",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "produttore",
+  "fields": [
+    {
+      "fieldName": "idProduttore",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dsProduttore",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Produttore",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
